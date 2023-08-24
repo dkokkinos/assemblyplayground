@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>netstandard2.1;net461;net7.0</TargetFrameworks>
+    <Version>1.0.0.1</Version>
+    <SignAssembly>True</SignAssembly>
+    <Title>TestAssemblyTitle</Title>
+    <Description>TestLibrary Description</Description>
+    <AssemblyOriginatorKeyFile>C:\Users\Jimfi\MyKeyPair.snk</AssemblyOriginatorKeyFile>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\2048x1536-dark-moon_1574942953.jpg" />
+    <None Remove="Resources\gear-solid.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\2048x1536-dark-moon_1574942953.jpg" />
+    <EmbeddedResource Include="Resources\gear-solid.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

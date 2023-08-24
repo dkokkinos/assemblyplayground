@@ -1,4 +1,5 @@
 ﻿using System;
+using TestLibrary;
 
 namespace AssemblyPlaygroundConsole
 {
@@ -6,7 +7,7 @@ namespace AssemblyPlaygroundConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator c = new Calculator();
         }
     }
 }
