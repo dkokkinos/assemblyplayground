@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestLibrary
+namespace Math.Core
 {
     public class Calculator
     {

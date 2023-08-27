@@ -4,10 +4,11 @@
 	<TargetFrameworks>netstandard2.1;net461;net7.0</TargetFrameworks>
     <Version>1.0.0.1</Version>
     <SignAssembly>True</SignAssembly>
-    <Title>TestAssemblyTitle</Title>
-    <Description>TestLibrary Description</Description>
+    <Title>Math.Core</Title>
+    <Description>Simple Math Operations</Description>
     <AssemblyOriginatorKeyFile>C:\Users\Jimfi\MyKeyPair.snk</AssemblyOriginatorKeyFile>
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
