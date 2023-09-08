@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyPlaygroundConsoleNe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlaygroundConsoleNet462", "AssemblyPlaygroundConsoleNet462\AssemblyPlaygroundConsoleNet462.csproj", "{0EA17E87-F432-418C-BA84-067BD11E8690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyReflectionConsoleApp", "AssemblyReflectionConsoleApp\AssemblyReflectionConsoleApp.csproj", "{1BD443DA-2A43-4F77-AC1E-40D0680FC8C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyReflectionConsoleApp", "AssemblyReflectionConsoleApp\AssemblyReflectionConsoleApp.csproj", "{1BD443DA-2A43-4F77-AC1E-40D0680FC8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlayground.LoadAssemblyFromGAC", "AssemblyPlayGround.LoadAssemblyFromGAC\AssemblyPlayground.LoadAssemblyFromGAC.csproj", "{AD56D3EC-332F-4D37-BE87-BFF2E9ADF3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlayground.AssemblyResources", "AssemblyPlayground.AssemblyResources\AssemblyPlayground.AssemblyResources.csproj", "{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1BD443DA-2A43-4F77-AC1E-40D0680FC8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD443DA-2A43-4F77-AC1E-40D0680FC8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD443DA-2A43-4F77-AC1E-40D0680FC8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD56D3EC-332F-4D37-BE87-BFF2E9ADF3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD56D3EC-332F-4D37-BE87-BFF2E9ADF3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD56D3EC-332F-4D37-BE87-BFF2E9ADF3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD56D3EC-332F-4D37-BE87-BFF2E9ADF3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
