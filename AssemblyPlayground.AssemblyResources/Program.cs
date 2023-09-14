@@ -28,13 +28,18 @@ namespace AssemblyPlayground.AssemblyResources
             // Access string resources using the ResourceManager
             var resource1 = rm.GetString("Resource1");
             var resource2 = rm.GetString("Resource2");
-            Console.WriteLine($"Resource1:{resource1}, Resource2:{resource2}");
+            Console.WriteLine($"Default culture => Resource1:{resource1}, Resource2:{resource2}");
 
             // enumerate all available resources
             ResourceSet resourceSet = rm.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
             foreach (System.Collections.DictionaryEntry entry in resourceSet)
                 Console.WriteLine(entry.Key);
 
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("el");
+
+            resource1 = rm.GetString("Resource1");
+            resource2 = rm.GetString("Resource2");
+            Console.WriteLine($"el culture => Resource1:{resource1}, Resource2:{resource2}");
         }
     }
 }

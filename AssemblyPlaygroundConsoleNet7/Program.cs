@@ -1,6 +1,7 @@
 ﻿using AdvancedMath;
 using Math.Core;
 using System;
+using System.Runtime.Loader;
 
 namespace AssemblyPlaygroundConsole
 {
@@ -13,6 +14,8 @@ namespace AssemblyPlaygroundConsole
 
             var mathAdvancedClient = new MathAdvancedClient();
             mathAdvancedClient.Execute();
+
+            Console.ReadKey();
         }
 
         public class MathCoreClient

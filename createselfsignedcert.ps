@@ -1,0 +1,5 @@
+$params = @{
+    DnsName = 'www.softwareparticles.com'
+    CertStoreLocation = 'Cert:\LocalMachine\My'
+}
+New-SelfSignedCertificate @params

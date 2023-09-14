@@ -20,3 +20,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.1")]
 [assembly: AssemblyFileVersion("1.2.3.4")]
 [assembly: AssemblyInformationalVersion("1.0.0")]
+// In this AssemblyInfo we can set assembly attributes. 
+// You have to set in project .csproj an entry that prevents the autogenerate of the AssemblyInfo, because this will cause conflicts.
+// <GenerateAssemblyInfo>false</GenerateAssemblyInfo>

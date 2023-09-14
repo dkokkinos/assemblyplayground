@@ -6,16 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="AssemblyPlaygroundConsoleNet7.exe.manifest" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="AssemblyPlaygroundConsoleNet7.exe.manifest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Math.Advanced\Math.Advanced.csproj" />
   </ItemGroup>
 
