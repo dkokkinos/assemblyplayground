@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlayground.LoadAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyPlayground.AssemblyResources", "AssemblyPlayground.AssemblyResources\AssemblyPlayground.AssemblyResources.csproj", "{58A383A7-C3A5-4006-9B27-6FB0E5DACBEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlayground.LoadAssemblyFromCustomDirectory", "AssemblyPlayground.LoadAssemblyFromCustomDirectory\AssemblyPlayground.LoadAssemblyFromCustomDirectory.csproj", "{8AF46EEC-C146-4010-BBD5-EF9CFE9E975C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyPlayground.LoadAssemblyFromCustomDirectory", "AssemblyPlayground.LoadAssemblyFromCustomDirectory\AssemblyPlayground.LoadAssemblyFromCustomDirectory.csproj", "{8AF46EEC-C146-4010-BBD5-EF9CFE9E975C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyPlayground.BindingRedirectConsoleApp", "AssemblyPlayground.BindingRedirectConsoleApp\AssemblyPlayground.BindingRedirectConsoleApp.csproj", "{5E3EB375-8F95-4D19-96AE-D391ED92A059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8AF46EEC-C146-4010-BBD5-EF9CFE9E975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AF46EEC-C146-4010-BBD5-EF9CFE9E975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AF46EEC-C146-4010-BBD5-EF9CFE9E975C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3EB375-8F95-4D19-96AE-D391ED92A059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3EB375-8F95-4D19-96AE-D391ED92A059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3EB375-8F95-4D19-96AE-D391ED92A059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3EB375-8F95-4D19-96AE-D391ED92A059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
